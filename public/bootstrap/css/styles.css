@@ -1,0 +1,204 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+
+
+
+/* Headings */
+
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading{
+  font-size: 3rem;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #c8a591ff;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Title Section */
+
+#title .container-fluid{
+  padding: 3% 7% 7%;
+  text-align: left;
+}
+
+#checkBoxLogin{
+  background-color: #ef8172;
+  border-color: #c8a591ff;
+}
+
+.background-section {
+  background-image: url('https://cdn.discordapp.com/attachments/1161868107292356712/1164253988582084758/Cat-img1.jpg?ex=65428b05&is=65301605&hm=9e47d9f141b1d984dfe4382d87099fb3c6b538f7a32a5e918ee1379609434b5f&'); /* Ganti 'lokasi-gambar-anda.jpg' dengan URL gambar yang ingin Anda gunakan */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Jika Anda ingin gambar tetap saat menggulir halaman */
+  color: rgb(0, 0, 0); /* Ubah warna teks sesuai kebutuhan untuk kontras dengan gambar */
+  text-align: center;
+  padding: 100px 20px; /* Sesuaikan sesuai kebutuhan Anda */
+}
+/* Navigation Bar */
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+/* Downloads Button */
+
+.login-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image-div{
+  position: relative;
+}
+
+.title-image{
+  top: 15%;
+  width: 100%;
+  position: absolute;
+  
+}
+
+/* Feature Section */
+
+#features{
+  position: relative;
+}
+
+.feature-title{
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: black;
+}
+
+/* Features Icons */
+
+.feature-col{
+  padding: 5%;
+}
+
+.fa-color{
+  color : #ef8172;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.fa-color:hover{
+  color: #c8a591ff;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+/* Press Section */
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 10%;
+  margin: 20px 20px 60px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+}
+
+.price-title{
+  font-size: 3rem;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+/* Footer Section */
+
+.fa-footer{
+  margin: 2rem;
+}
+
+@media (max-width:1028px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+
+  #title .container-fluid{
+    text-align: center;
+  }
+
+  .navbar{
+    text-align: right;
+  }
+}
