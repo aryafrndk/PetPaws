@@ -8,12 +8,12 @@
     <!-- Favicon -->
     <link rel="icon" href="favicon.ico">
 
-  <!-- Bootstrap & CSS -->
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-  <link rel="stylesheet" href="bootstrap/css/styles.css">
+    <!-- Bootstrap & CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/styles.css">
 
-  <!-- Bootstrap JS -->
-  <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,7 +51,7 @@
                                 <a class="nav-link fw-bold" href="{{ route('datakucing') }}">Data Kucing</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link fw-bold" href="index.html">Keluar</a>
+                                <a class="nav-link fw-bold" href="{{ route('loginadmin') }}">Keluar</a>
                             </li>
                         </ul>
                     </div>

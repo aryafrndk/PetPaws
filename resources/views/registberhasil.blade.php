@@ -27,36 +27,36 @@
 </head>
 <body>
 
-  <!-- Nav Bar -->
-  <section class="" id="title">
-    <div class="container-lg">
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top py-1">
-        <div class="container px-1 px-lg-2">
-          <a class="navbar-brand" href="{{ route('index') }}">PetPaws</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          </div>
-        </nav>
-      </div>
-    </section>
+    <!-- Nav Bar -->
+    <section class="" id="title">
+      <div class="container-lg">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top py-1">
+          <div class="container px-1 px-lg-2">
+            <a class="navbar-brand" href="{{ route('index') }}">PetPaws</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            </div>
+          </nav>
+        </div>
+      </section>
 
-<div class="container mt-5">
-  <div class="row justify-content-center">
-    <div class="col-md-6">
-      <div class="card">
-        <div class="card-header">
-          Registrasi Berhasil
-        </div>
-        <div class="card-body">
-          <p>Selamat! Anda telah berhasil melakukan registrasi.</p>
-          <p>Silakan login menggunakan formulir di bawah ini.</p>
-          <a href="{{ route('login') }}" class="btn btn-primary">Halaman Login</a>
-        </div>
-      </div> 
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            Registrasi Berhasil
+          </div>
+          <div class="card-body">
+            <p>Selamat! Anda telah berhasil melakukan registrasi.</p>
+            <p>Silakan login menggunakan formulir di bawah ini.</p>
+            <a href="{{ route('login') }}" class="btn btn-primary">Halaman Login</a>
+          </div>
+        </div> 
+      </div>
     </div>
   </div>
-</div>
 
 </body>
 </html> 
